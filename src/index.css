@@ -29,9 +29,6 @@ button{
 .theme-light{
   background-color: #fff;
 }
-
-@media(prefers-color-scheme: dark){
-  body{
-    background-color: #121212;
-  }
+.theme-dark{
+  background-color: #121212;
 }

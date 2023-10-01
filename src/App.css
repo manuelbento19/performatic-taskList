@@ -99,14 +99,12 @@ form ul li #remove:hover{
 .theme-light span{
   color: #555;
 }
-@media(prefers-color-scheme: dark){
-  form input{
-    color: #ccc;
-  }
-  form ul li p{
-    color: #ffffff;
-  }
-  form span{
-    color: #fff;
-  }
+.theme-dark input{
+  color: #ccc;
+}
+.theme-dark input{
+  color: #ffffff;
+}
+.theme-dark span{
+  color: #fff;
 }
