@@ -1,0 +1,112 @@
+#container{
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+#toggle{
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  font-size: 1.4rem;
+}
+form {
+  width: min(620px,100%);
+  margin: 10% auto 0;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+form input{
+  all: unset;
+  width: 100%;
+  font-size: 1.58rem;
+  margin-bottom: 20px;
+}
+.theme-light input{
+  color: #444;
+  caret-color: rgb(189, 189, 189);
+}
+form input::placeholder{
+  font-size: 1.1rem;
+  color: #aaa;
+}
+form ul{
+  width: 100%;
+  height: fit-content;
+  max-height: 57vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+form ul::-webkit-scrollbar{
+  width: 4px;
+  background-color: #dedede;
+}
+form ul::-webkit-scrollbar-thumb{
+  background-color: #c8c8c8;
+}
+form ul li{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 0;
+  border: none;
+}
+form ul li button{
+  all: unset;
+  cursor: pointer;
+}
+
+form ul li p{
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  width: 80%;
+  word-wrap: break-word;
+}
+form div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.theme-light p{
+  color: rgb(90, 90, 90);
+}
+#check{
+  height: 6px;
+  width: 6px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  border-radius: 50%;
+  font-size: .5rem;
+}
+.checked p{
+  text-decoration: line-through;
+}
+
+#remove{
+  font-size: 1.2rem;
+  margin-left: auto;
+  transition: transform .5s ease;
+}
+form ul li #remove:hover{
+  transform: translateY(-4px);
+}
+.theme-light span{
+  color: #555;
+}
+@media(prefers-color-scheme: dark){
+  form input{
+    color: #ccc;
+  }
+  form ul li p{
+    color: #ffffff;
+  }
+  form span{
+    color: #fff;
+  }
+}
