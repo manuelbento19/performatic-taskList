@@ -102,9 +102,9 @@ form ul li #remove:hover{
 .theme-dark input{
   color: #ccc;
 }
-.theme-dark input{
+.theme-dark p{
   color: #ffffff;
 }
-.theme-dark span{
+.theme-dark form span{
   color: #fff;
 }
