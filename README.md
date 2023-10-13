@@ -3,7 +3,7 @@
 </h1>
 
 
-![Resultado final do projeto](./public/capa.png)
+![Resultado final do projeto](./public/Capa.png)
 
 <h4 align="center"><a href="https://performatic-task-list.vercel.app/">Clique para visitar o projeto</a></h4>
 
