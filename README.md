@@ -1,8 +1,33 @@
-# React + Vite
+<h1 align="center">
+  📸📝<br>Performatic TaskList
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+![Resultado final do projeto](./public/capa.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h4 align="center"><a href="https://performatic-task-list.vercel.app/">Clique para visitar o projeto</a></h4>
+
+---
+
+## 💼 Tecnologias utilizadas
+
+Para o desenvolvimento deste site utilizei as seguintes tecnologias:
+- React.js
+- Vite
+- React Hooks
+---
+
+<h2>👨‍🚀 Autor</h2>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/manuelbento19">
+        <img src="https://avatars.githubusercontent.com/u/65732773" width="150px;" alt="Foto do Manuel Bento"/><br>
+        <sub>
+          <b>Manuel Bento</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
